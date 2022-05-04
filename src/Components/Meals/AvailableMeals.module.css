@@ -5,6 +5,27 @@
   animation: meals-appear 1s ease-out forwards;
 }
 
+.meals-loading {
+  position: fixed;
+  height: 2rem;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+}
+.meals-error {
+  position: fixed;
+  height: 3rem;
+  width: 100%;
+  color: rgb(255, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+}
+
 .meals ul {
   list-style: none;
   margin: 0;
